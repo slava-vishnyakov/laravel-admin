@@ -35,7 +35,7 @@ abstract class AbstractDisplayer
      * @param Column    $column
      * @param \stdClass $row
      */
-    public function __construct($value, Grid $grid, Column $column, $row)
+    public function __construct($value, Grid $grid, Column $column, \stdClass $row)
     {
         $this->value = $value;
         $this->grid = $grid;
